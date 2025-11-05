@@ -1,0 +1,72 @@
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 500px;
+  
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 21px;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+    margin-top: 0;
+    font-size: 90px;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 155px;
+    font-family: font;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+    border-radius: 5px;
+
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    margin-top: 0;
+    font-family: font;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}

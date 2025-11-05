@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="block">
+                <h3>HOME</h3>
+                <p class="score" id="left-score">0</p>
+                <div class="btn">
+                    <button onclick="addOneLeft()">+1</button>
+                    <button onclick="addTwoLeft()">+2</button>
+                    <button onclick="addThreeLeft()">+3</button>
+                </div>
+            </div>
+            <div class="block">
+                <h3>GUEST</h3>
+                <p class="score" id="right-score">0</p>
+                <div class="btn">
+                    <button onclick="addOneRight()">+1</button>
+                    <button onclick="addTwoRight()">+2</button>
+                    <button onclick="addThreeRight()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>
